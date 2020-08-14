@@ -36,7 +36,7 @@
       },
       created() {
           axios.get('/static/paintings.json').then((response)=> {
-            this.painting = response.data.apintings.filter(data=> data.id == this.$route.params.id)[0]
+            this.painting = response.data.paintings.filter(data=> data.id == this.$route.params.id)[0]
             this.painting.image= '/' + this.painting.image;
           });
       }

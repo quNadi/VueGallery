@@ -1,6 +1,25 @@
-header h1{
-  padding:10px 20px;
+header h1 {
+  padding: 10px 20px;
 }
-body{
-  max-width:970px;
+ body{
+  max-width:1920px;
 }
+.cart{
+  padding: 20px 50px;
+}
+.submit{
+  margin-top: 20px;
+  float: right;
+}
+.description{
+  font-size: 150%;
+  margin-top: 50px;
+}
+.inventory-info{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 120%;
+  display: inline-block;
+}
+
+button { padding: 10px; }

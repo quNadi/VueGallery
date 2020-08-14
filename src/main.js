@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import { store } from './store/store'
-require('assets.app.css')
+require('./assets/app.css')
 
 Vue.config.productionTip = false
 

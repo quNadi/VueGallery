@@ -5,7 +5,7 @@
       "title": "Monster",
       "description": "my love...",
       "price": 6700,
-      "image": "assets/images/obraz1.jpg",
+      "image": "static/images/obraz1.jpg",
       "availableInventory": 5,
       "rating": 3
     },
@@ -14,7 +14,7 @@
       "title": "Monster34",
       "description": "my haters..",
       "price": 6800,
-      "image": "assets/images/obraz2.jpg",
+      "image": "static/images/obraz2.jpg",
       "availableInventory": 5,
       "rating": 3
     },
@@ -23,7 +23,7 @@
       "title": "Ghost",
       "description": "my liliy.",
       "price": 6900,
-      "image": "assets/images/obraz3.jpg",
+      "image": "static/images/obraz3.jpg",
       "availableInventory": 5,
       "rating": 4
     }
