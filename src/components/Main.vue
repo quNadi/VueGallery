@@ -39,8 +39,13 @@
 <script>
   import MyHeader from './Header.vue';
   import {mapGetters} from 'vuex';
-    export default {
+  import {paintingsRef} from "../firebase";
+
+  export default {
       name: "imain",
+    firebase:{
+        paintings:paintingsRef
+    },
       data() {
         return {
           cart: []

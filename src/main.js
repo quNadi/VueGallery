@@ -5,7 +5,11 @@ import App from './App'
 import router from './router'
 import { store } from './store/store'
 require('./assets/app.css')
+import firebase from 'firebase';
+import './firebase';
+import { firestorePlugin } from 'vuefire'
 
+Vue.use(firestorePlugin)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

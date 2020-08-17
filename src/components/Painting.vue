@@ -21,9 +21,14 @@
 
 <script>
     import MyHeader from "./Header.vue";
+    import {paintingsRef} from "../firebase";
+
     export default {
         name: "Painting",
       components: {MyHeader},
+      firebase: {
+          paintings:paintingsRef
+      },
       data(){
           return {
             painting:''

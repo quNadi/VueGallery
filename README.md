@@ -1,6 +1,7 @@
 # myvue
 
 > A Vue.js project
+>Vuex, Axios, Firebase(Google Cloud)
 
 ## Build Setup
 
